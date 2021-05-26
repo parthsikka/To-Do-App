@@ -7,7 +7,7 @@ input.addEventListener("keypress", function(e){
         let li = document.createElement("li") ;
         li.innerHTML = todo ; 
         list.append(li) ;
-        todo.value = "" ;
+        input.value = "" ;
         }else{
             alert("Enter a todo!!") ;
         }
